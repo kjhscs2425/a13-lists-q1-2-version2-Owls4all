@@ -13,5 +13,5 @@ The Management
 *******************************************************
 
 """
-
-print("Dear Zoe," + form_letter)
+for cat in cats:
+    print(f"Dear {cat}," + form_letter)
